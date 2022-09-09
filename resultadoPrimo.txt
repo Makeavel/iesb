@@ -1,0 +1,45 @@
+------------------
+    Na força bruta    tempo 58:37:12
+----- 1 -------------
+Tempo de execucao: 345.920482 
+somatorio: 1324300543 
+quantidade: 41513
+----- 2 -------------
+Tempo de execucao: 348.271868 
+somatorio: 1324300543 
+quantidade: 41513
+----- 3 -------------
+Tempo de execucao: 348.933937 
+somatorio: 1324300543 
+quantidade: 41513
+----- 4 -------------
+Tempo de execucao: 346.832196 
+somatorio: 1324300543 
+quantidade: 41513
+----- 5 -------------
+Tempo de execucao: 343.766801 
+somatorio: 1324300543 
+quantidade: 41513
+----- 6 -------------
+Tempo de execucao: 348.143449 
+somatorio: 1324300543 
+quantidade: 41513
+----- 7 -------------
+Tempo de execucao: 347.051347 
+somatorio: 1324300543 
+quantidade: 41513
+----- 8 -------------
+Tempo de execucao: 348.725991 
+somatorio: 1324300543 
+quantidade: 41513
+----- 9 -------------
+Tempo de execucao: 345.504721 
+somatorio: 1324300543 
+quantidade: 41513
+----- 10 -------------
+Tempo de execucao: 348.983538 
+somatorio: 1324300543 
+quantidade: 41513
+
+-------------------------------------------
+    Com Paralelismo    tempo 
