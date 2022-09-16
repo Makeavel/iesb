@@ -42,6 +42,7 @@ for(int t=0; t < quantidadeRepeticao; t++){
 
 int main(){
 
+
     paralelismo();
     
     return 0;

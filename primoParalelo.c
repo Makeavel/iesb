@@ -10,7 +10,6 @@ int somatorio = 0 , contador = 0 , numeros = 0 , contaDivisores = 0 , quantidade
     int id;
     id = omp_get_thread_num();
     timeInicio = omp_get_wtime();
-
     for(int i=min; i<max;i++){
         for(int j=1; j<i; j++){
             if(i % j == 0){
@@ -41,22 +40,19 @@ int main(){
 
 #pragma omp parallel 
 {   int contFor2 = 2 ;
+    int i = 0;
 
-#pragma omp sections
+#pragma omp sections nowait
 {
-    #pragma omp section 
-        paralelismo();
-    #pragma omp section
-        paralelismo();
-    #pragma omp section 
-        paralelismo();
-    #pragma omp section
-        paralelismo();   
-}  
-    #pragma omp nowait
-        paralelismo();
-
+#pragma omp section 
+    paralelismo();
+#pragma omp section 
+    paralelismo();
+#pragma omp section 
+    paralelismo();
+#pragma omp section 
+    paralelismo();
 }
-
+}
  return 0;
 }
