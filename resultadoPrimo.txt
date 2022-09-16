@@ -1,5 +1,5 @@
 ------------------
-    Na força bruta    tempo 58:37:12
+    Na força bruta    
 ----- 1 -------------
 Tempo de execucao: 345.920482 
 somatorio: 1324300543 
@@ -41,5 +41,30 @@ Tempo de execucao: 348.983538
 somatorio: 1324300543 
 quantidade: 41513
 
--------------------------------------------
-    Com Paralelismo    tempo 
+---------------------------------------
+    Com Paralelismo   
+
+ thread[1] ------------1-
+Tempo de execucao: 326.258465 
+somatorio: 1324300543 
+quantidade: 41513
+ thread[3] ------------2-
+Tempo de execucao: 326.459631 
+somatorio: 1324300543 
+quantidade: 41513
+ thread[2] -----------3-
+Tempo de execucao: 328.964332 
+somatorio: 1324300543 
+quantidade: 41513
+ thread[1] ------------4-
+Tempo de execucao: 328.982634 
+somatorio: 1324300543 
+quantidade: 41513
+thread[1] ------------5-
+Tempo de execucao: 323.101935 
+somatorio: 1324300543 
+quantidade: 41513
+ thread[2] ------------6-
+Tempo de execucao: 323.190742 
+somatorio: 1324300543 
+quantidade: 41513

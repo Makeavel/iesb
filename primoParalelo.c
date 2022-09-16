@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<omp.h>
 #define min 100
-#define max 50000
+#define max 500000
 #define contFor = 10
 
 void paralelismo(){
@@ -48,10 +48,7 @@ int main(){
     paralelismo();
 #pragma omp section 
     paralelismo();
-#pragma omp section 
-    paralelismo();
-#pragma omp section 
-    paralelismo();
+
 }
 }
  return 0;
