@@ -21,6 +21,7 @@ int main(){
     {
         printf("Iniciando mundo paralelo\n");
     }
+    #pragma omp barrier
       #pragma omp master
     {
         printf("Fim - thread[%d]" , id_thread);
