@@ -1,0 +1,75 @@
+        Paralelismo Implícito
+            vantagem 
+- O sistema Operacional é responsável 
+- As soluções são mais genéricas e abstratas
+            desvantagem
+- Bastante genérico
+- chance de conseguir uma solução performatica é baixa
+
+        Paralelismo Explícito
+            vantagem
+- O programador é o responsável
+- Tem um poder maior pois o programador tem o controle
+            desvantagem
+- Pode se tornar mais complexo em relação ao Implícito.
+
+            UMA
+
+- todos os processadores tem o mesmo tempo de acesso aos processadores
+- a implementação da sincronização de memória cache é feita por hardware
+
+            NUMA
+
+- Os processadores possuem tempo de acesso aos processadores diferentes
+- 
+
+        MultiProcessadores
+
+- A distribuição de tarefas entre os processadores é mais simples e rápida
+- É necessário sinconisnmo para mexer com os dados
+
+- Quanto maior a quantidade de processadores mais memória será necessário
+- Quanto mais componentes for incorporado mais caro vai ficando trabalhar com esse método
+
+        MultiComputadores
+
+- Os endereços de memória não é compartilhado entre as máquinas
+- os computadores são ligados pela rede então ninguém usa a memória física do outro
+- como não é possível ver o endereço de memória de outro computador o sincronismo é desnecessário
+- O tempo para acesso das informações em computadores externos é maior
+- Menos custoso
+
+existem dois nós em MultiComputadores e são eles:
+1- MultiComputador distribuido & 2- MultiComputador compartilhamento distribuido
+
+1- Cada computador trabalha com apenas 1 processador ou sem paralelismo
+2- Cada computador trabalha com mais de 1 processador, implementando assim o MultiProcessadores
+
+        Hierarquia de memória
+
+Quanto maior for a hierarquia da memória mais rápido ela será acessada
+
+        HIT e MISS
+
+HIT: Quando se procura uma informação em uma das hierarquias de memória e é achado;
+MISS: é quando se procura uma informação nas hierarquias de memória e NÃO se acha.
+
+
+
+    sincronização
+
+É usada para impor regras de ordem de acesso para proteger o acesso aos dados compartilhados
+
+É dividida em alto nível e baixo nível 
+
+        Alto nível
+    omp critical -> apenas uma thread pode entrar por vez
+    omp atomic  -> serve apenas para atualizações na memória
+    omp barrier -> cada thread espera até que as demais cheguem
+    omp ordered
+
+    nowait -> as theads não param para esperar outra executar como no barrier, elas seguem direto
+    omp master -> apenas a thread 0, a primaria, pode entrar nessa função
+    omp single -> apenas a 1º thread que bater aqui vai executar essa função Obs. Possui barrier implícito
+    omp sections -> divide o trabalho entre as threads, onde cada uma executa uma função separada. Obs possui barrier implícito
+        omp section -> são as funções internas da sections
