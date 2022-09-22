@@ -4,7 +4,7 @@
 
 int main(){
 
-    int numThreadUsuario , numThreads , id_thread;
+    int numThreadUsuario , id_thread;
     printf("digite num threads desejadas:");
     scanf("%d" , &numThreadUsuario);
     omp_set_num_threads(numThreadUsuario);
@@ -22,7 +22,7 @@ int main(){
         printf("Iniciando mundo paralelo\n");
     }
     #pragma omp barrier
-      #pragma omp master
+    #pragma omp master
     {
         printf("Fim - thread[%d]" , id_thread);
         
