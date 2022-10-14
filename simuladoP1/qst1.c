@@ -39,6 +39,9 @@ int main(){
     int id_thread;
     id_thread = omp_get_thread_num();
 #pragma omp parallel 
+{
+    
+}
 
     
  #pragma omp for schedule(dynamic)
