@@ -1,0 +1,21 @@
+1
+faça um progr ama em MPI que gere a seguinte saida:
+"Hello world" from MPI process 0. we are 4 MPI process.
+"Hello world" from MPI process 1. we are 4 MPI process.
+"Hello world" from MPI process 2. we are 4 MPI process.
+"Hello world" from MPI process 3. we are 4 MPI process.
+
+Ordem não importa
+
+2
+Este teste é para você praticar o recurso fundamnetal do MPI:
+enviar uma mensagem. A aplicação que você deve desenvolver é composta
+por 2 processos MPI, o primeiro envia uma mensagem e o segundo a recebe.
+a mensagem a enviar é apenas um inteiro com o valor 12345.
+o destinatário deve imprimir o valor recebido. 
+você é livre para escolher o valor
+da tag que deseja.
+saida:
+
+I am process 0. i send value 12345
+I am process 1. i send value 12345
