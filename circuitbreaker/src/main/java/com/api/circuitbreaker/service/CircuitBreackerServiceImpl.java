@@ -8,10 +8,8 @@ import org.springframework.cloud.client.circuitbreaker.ReactiveCircuitBreakerFac
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
-
-
 @Service
-public class CircuitBreackerServiceImpl {
+public class CircuitBreackerServiceImpl implements CircuitBreackerService{
     
     private static final Logger log = LoggerFactory.getLogger(CircuitBreackerServiceImpl.class);
 
@@ -19,7 +17,7 @@ public class CircuitBreackerServiceImpl {
     private  ReactiveCircuitBreaker reactiveCircuitBreaker;
     private  ReactiveCircuitBreakerFactory createreactiveFactory;
 
-    public CircuitBreackerServiceImpl( ){
+    public void CircuitBreackerServiceImpl( ){
         this.webClient = WebClient.builder().baseUrl("http://localhost:8081").build();
         this.reactiveCircuitBreaker = createreactiveFactory.create("home");
     }
@@ -32,4 +30,5 @@ public class CircuitBreackerServiceImpl {
                 return Mono.just("Foi");
             });
     }
+
 }
