@@ -15,10 +15,11 @@ public class CircuitBreackerServiceImpl {
     
     private static final Logger log = LoggerFactory.getLogger(CircuitBreackerServiceImpl.class);
 
-    private final WebClient webClient;
-    private final ReactiveCircuitBreaker reactiveCircuitBreaker;
+    private  WebClient webClient;
+    private  ReactiveCircuitBreaker reactiveCircuitBreaker;
+    private  ReactiveCircuitBreakerFactory createreactiveFactory;
 
-    public CircuitBreackerServiceImpl(ReactiveCircuitBreakerFactory createreactiveFactory){
+    public CircuitBreackerServiceImpl( ){
         this.webClient = WebClient.builder().baseUrl("http://localhost:8081").build();
         this.reactiveCircuitBreaker = createreactiveFactory.create("home");
     }
