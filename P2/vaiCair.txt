@@ -1,0 +1,23 @@
+Questões de implementar:
+
+- Djikstra
+- backedge
+
+Desenhar: 
+- Djikstra
+- Prim
+- Kruskal
+- grafo
+
+ler código da prova e dar resultado: 
+- Prim
+- Kruskal
+
+Djikstra:
+inserir na fila de prioridade O(1) 
+remover da fila de prioridade nLog(n);
+
+
+backedge 
+
+-lower 
