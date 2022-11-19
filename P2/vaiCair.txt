@@ -26,7 +26,21 @@ remover da fila de prioridade nLog(n);
 
 
 backedge 
-
 -lower 
-
 forward edge
+
+//---------- "Estrutura Prova" ------------//
+
+1) backedge
+    grafo + tabela de in, lower , visitado, qtd de pontes , quais pontes.
+
+2) tabela Djikstra
+    grafo + 2 tabelas das distâncias (ele vai escolher duas raizes diferentes).
+
+3) grafo Prim e Kruskal
+    Desenhar.
+
+4) implemente 
+    Djikstra.
+    backedge.
+
