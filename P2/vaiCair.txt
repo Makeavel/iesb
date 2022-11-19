@@ -9,6 +9,11 @@ Desenhar:
 - Kruskal
 - grafo
 
+- tabela resultado do backedge:
+in:
+lower:
+visitado:
+
 ler código da prova e dar resultado: 
 - Prim
 - Kruskal
