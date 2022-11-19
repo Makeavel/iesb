@@ -9,7 +9,7 @@ Desenhar:
 - Kruskal
 - grafo
 
-- tabela resultado do backedge:
+- tabela resultado do backedge: (pontes)
 in:
 lower:
 visitado:
@@ -31,7 +31,7 @@ forward edge
 
 //---------- "Estrutura Prova" ------------//
 
-1) backedge
+1) backedge (pontes)
     grafo + tabela de in, lower , visitado, qtd de pontes , quais pontes.
 
 2) tabela Djikstra
