@@ -21,3 +21,5 @@ remover da fila de prioridade nLog(n);
 backedge 
 
 -lower 
+
+forward edge
