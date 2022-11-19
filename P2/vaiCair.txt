@@ -13,6 +13,8 @@ Desenhar:
 in:
 lower:
 visitado:
+qtd pontes:
+
 
 ler código da prova e dar resultado: 
 - Prim
