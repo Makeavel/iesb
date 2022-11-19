@@ -14,7 +14,7 @@ in:
 lower:
 visitado:
 qtd pontes:
-
+quais pontes:
 
 ler código da prova e dar resultado: 
 - Prim
