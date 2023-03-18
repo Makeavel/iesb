@@ -1,0 +1,16 @@
+notações 
+tetha - caso médio
+big o - melhor caso
+omega - pior caso
+
+anotação assintótica
+olhar a const de maior complexidade
+
+melhor para o pior:
+O(1)
+O(log n)
+O(n)
+O(n log n)
+O(n^x)
+O(2^n)
+O()
