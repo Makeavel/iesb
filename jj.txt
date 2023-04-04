@@ -1,0 +1,12 @@
+aluno - 1 caracteristica 2 caracteristica;
+
+Características: 
+
+1- Personalidade:            2- Idade
+Bagunceiro                     12
+Estudioso                      13
+Tímido                         14
+Sociável                       15
+
+
+metodos de ensino - 5 metodos;

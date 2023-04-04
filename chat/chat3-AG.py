@@ -5,7 +5,7 @@ import random
 # Parâmetros
 POPULATION_SIZE = 100
 GENE_LENGTH = 5
-MUTATION_RATE = 0.1
+MUTATION_RATE = 0.05
 
 # Funções auxiliares
 def create_individual():
