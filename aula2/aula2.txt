@@ -1,0 +1,41 @@
+Anotação Assintótica
+- olhar a const de maior complexidade
+- constante desconsidera
+- termos de menor relevancia desconsidera
+
+----- BIG O -------
+f(n) = n²
+g(n) = n³
+
+f(n) = O(g(n))
+
+f(n) <= Constante * g(n)
+
+n² <= constante * n³ // falso
+
+------ theta ------
+
+f(n) = Θ(g(n))
+
+constante1 * g(n) <= f(n) <= constante2 * g(n)
+
+Se existir uma constante Natual > 0
+
+desconsiderando: 
+
+- constante desconsidera
+- termos de menor relevancia desconsidera
+
+se f(n) e g(n) for mesma complexidade, é tetha
+
+------ omega -------
+
+Ω
+
+
+---------
+
+se a função tiver laço de repetição conte instrução
+se não houver laço de repetição é normal
+
+ 

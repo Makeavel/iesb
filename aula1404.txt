@@ -1,0 +1,5 @@
+algoritmo subsetsum 
+
+programação dinamica  n * M ; pior caso 2^n  
+
+backtrack | pior caso : 2^n ; tende a nlog(n)

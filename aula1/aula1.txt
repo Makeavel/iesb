@@ -1,0 +1,18 @@
+Notações 
+-Θ tetha -> caso médio
+-O big o -> melhor caso
+-Ω omega -> pior caso
+
+Anotação Assintótica
+- olhar a const de maior complexidade
+- constante desconsidera
+- termos de menor relevancia desconsidera
+
+Melhor complexidade para o pior:
+O(1) hash table
+O(log n)
+O(n)
+O(n log n)
+O(n^x)
+O(2^n)
+O(fatorial)
