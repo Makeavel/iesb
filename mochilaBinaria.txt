@@ -1,0 +1,18 @@
+Mochila Binária
+
+Capacidade da mochila = 7
+
+Valor Peso
+2   2
+3  2
+2  3
+4  3
+
+- fazer matriz com coluna = ao total da capacidade da mochila
+
+Matriz[i][j] onde J >= Peso
+
+Max(Matriz[i-1][j], Valor + Matriz[i-1][j-Peso])
+
+knapsack - canal: Abdul Bari 
+

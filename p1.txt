@@ -1,0 +1,12 @@
+p1
+
+8 questões de multipla escolha -> 4 pontos
+
+2 questões de 2 pontos
+
+Matriz de subsetsum  
+
+Matriz de mochila binária
+
+
+código função recursiva -> qual a complexidade
