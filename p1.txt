@@ -10,3 +10,14 @@ Matriz de mochila binária
 
 
 código função recursiva -> qual a complexidade
+
+Gabarito:
+
+1) C
+2) E
+3) A
+4) E
+5) B
+6) D
+7) C
+8) C
